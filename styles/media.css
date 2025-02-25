@@ -1,0 +1,36 @@
+@media (max-width: 735px) {
+    .info-text {
+        text-align: center;
+    }
+
+    .info {
+        display: block;
+    }
+
+    .info-text {
+        margin: auto;
+    }
+
+    .buttons {
+        margin: auto;
+
+    }
+
+    .info .avatar {
+        display: block;
+        margin: auto;
+    }
+
+}
+
+@media (max-width: 650px) {
+    .form-row {
+        display: block;
+    }
+
+    .form-row .form-group {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
