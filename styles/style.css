@@ -154,15 +154,21 @@ button:hover {
 .form-row {
     margin-bottom: 10px;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .form-row .form-group {
     margin-right: 20px;
-    width: calc(50% - 25px);
+    width: calc(50% - 10px);
+}
+
+.form-row .form-group:nth-child(2) {
+    margin-right: 0;
 }
 
 .form-row .form-group:last-child {
     width: 100%;
+    margin-right: 0;
 }
 
 .form-group label {
